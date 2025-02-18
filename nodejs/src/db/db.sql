@@ -1,0 +1,8 @@
+-- Active: 1707936664332@@127.0.0.1@3306@userlogin
+CREATE DATABASE IF NOT EXISTS userlogin;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nameusers VARCHAR(255),
+    pass VARCHAR(255)
+);
