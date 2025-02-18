@@ -1,0 +1,55 @@
+/* esto sirve para resetear los estilos y que no den nunca fallo en ningún navegador. OBLIGATORIO!!
+cada navegador trae sus margin y padding por defecto */
+*{ 
+margin: 0;
+padding: 0;
+}
+
+/* selectores:
+class .
+id #
+etiqueta etiqueta */
+body{
+    width: 80%;
+    margin: 0 auto; /*truco para centrar el contenido*/
+
+}
+header{
+    background-color: aquamarine;
+    color: blue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 150px;
+    /* width: 80%; 
+    margin: 0 auto; /*truco para centrar el contenido*/
+
+}
+nav{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 150px;
+    
+}
+li{
+    list-style: none;
+}
+section{
+    background-color: rgb(99, 135, 40);
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color: rgb(128, 67, 67);
+    color: antiquewhite;
+    text-align: center;
+    height: 60px;
+    line-height: 60px; /*truco para centrar la altura, poner mismo que height*/
+    
+
+}
+a{
+    text-decoration: none;
+}

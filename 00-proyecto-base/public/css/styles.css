@@ -1,0 +1,6 @@
+/* esto sirve para resetear los estilos y que no den nunca fallo en ningún navegador. OBLIGATORIO!!
+cada navegador trae sus margin y padding por defecto */
+*{ 
+margin: 0;
+padding: 0;
+}

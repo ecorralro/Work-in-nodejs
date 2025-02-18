@@ -1,0 +1,65 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 80%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+    text-align: center;
+    line-height: 150px;
+}
+.contenedorfluido{
+    display: flex;
+    flex-direction: row; /*se distribuye en columnas y si ponemos row en fila*/
+    flex-wrap: wrap; /*salto de línea o no*/
+    /* flex-flow: row wrap; hace la funcion fdirection y fwrap en una */
+    justify-content: space-evenly;/*start desde izq, end desde derecha*/
+    align-items: center;
+    background-color: aquamarine;
+    border: 4px solid green;
+
+    min-height: 100vh;
+
+}
+.caja{
+    background-color: rgb(57, 132, 198);
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+
+}
+.c1{
+    background-color: brown;
+    flex-grow: 1;
+    order: 6;
+
+}
+.c2{
+    background-color: orange;
+    flex-grow: 1;
+    order: 5;
+}
+.c3{
+    background-color: olive;
+    flex-grow: 1;
+    order: 4;
+}
+.c4{
+    background-color: blueviolet;
+    flex-grow: 1;
+    order: 3;
+}
+.c5{
+    background-color: chartreuse;
+    flex-grow: 1;
+    order: 2;
+}
+.c6{
+    background-color: tomato;
+    flex-grow: 1;
+    order: 1;
+}
+
